@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#0f766e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="我的工作台">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="icon" href="icon.svg">
+<title>我的工作台 · 物业资产 · 绿色双碳 · 商务成长</title>
+<style>
+:root{
+  --bg:#f5f7fa; --card:#ffffff; --ink:#0f172a; --sub:#64748b; --line:#e2e8f0;
+  --brand:#0f766e; --brand-soft:#ccfbf1; --brand-deep:#134e4a;
+  --green:#16a34a; --green-soft:#dcfce7;
+  --gold:#ca8a04; --gold-soft:#fef9c3;
+  --blue:#2563eb; --blue-soft:#dbeafe;
+  --rose:#e11d48; --rose-soft:#ffe4e6;
+  --shadow:0 1px 3px rgba(15,23,42,.06),0 1px 2px rgba(15,23,42,.04);
+  --shadow-lg:0 10px 30px rgba(15,23,42,.10);
+  --radius:14px;
+  --safe-top:env(safe-area-inset-top,0px);
+  --safe-bottom:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;margin:0;padding:0}
+html,body{height:100%}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei","Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
+  background:var(--bg);color:var(--ink);line-height:1.55;
+  padding-bottom:calc(110px + var(--safe-bottom));
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+
+/* ===== 顶部头图 ===== */
+.hero{
+  background:linear-gradient(135deg,#0f766e 0%,#134e4a 60%,#0c4a6e 100%);
+  color:#fff;padding:calc(20px + var(--safe-top)) 18px 22px;position:relative;overflow:hidden;
+}
+.hero::after{content:"";position:absolute;right:-40px;top:-40px;width:180px;height:180px;border-radius:50%;background:rgba(255,255,255,.08)}
+.hero::before{content:"";position:absolute;left:-30px;bottom:-60px;width:140px;height:140px;border-radius:50%;background:rgba(255,255,255,.05)}
+.hero h1{font-size:20px;font-weight:700;letter-spacing:.5px;position:relative}
+.hero .sub{font-size:12.5px;opacity:.85;margin-top:4px;position:relative}
+.hero .date-row{display:flex;align-items:center;gap:8px;margin-top:12px;font-size:13px;background:rgba(255,255,255,.15);padding:8px 12px;border-radius:10px;backdrop-filter:blur(6px);position:relative}
+.hero .date-row .dot{width:7px;height:7px;border-radius:50%;background:#34d399;box-shadow:0 0 0 3px rgba(52,211,153,.25);animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 3px rgba(52,211,153,.25)}50%{box-shadow:0 0 0 6px rgba(52,211,153,.1)}}
+.hero .date-row .grow{flex:1}
+.hero .date-row .refresh{font-size:12px;opacity:.9;cursor:pointer;padding:4px 8px;border-radius:6px}
+.hero .date-row .refresh:active{background:rgba(255,255,255,.2)}
+
+/* ===== 主体 ===== */
+.wrap{padding:14px 14px 8px;display:flex;flex-direction:column;gap:14px}
+
+.card{
+  background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);
+  overflow:hidden;border:1px solid rgba(226,232,240,.6);
+}
+.card-head{
+  display:flex;align-items:center;gap:10px;padding:14px 16px 10px;
+}
+.card-head .ic{
+  width:34px;height:34px;border-radius:9px;display:flex;align-items:center;justify-content:center;
+  font-size:18px;flex-shrink:0;
+}
+.card-head h2{font-size:15.5px;font-weight:700;letter-spacing:.2px}
+.card-head .tag{font-size:10.5px;color:var(--sub);font-weight:500;margin-top:2px}
+.card-head .more{margin-left:auto;font-size:12px;color:var(--brand);font-weight:600;cursor:pointer}
+.card-head .more:active{opacity:.6}
+
+/* 分类色 */
+.mod-property .ic{background:var(--brand-soft);color:var(--brand)}
+.mod-green .ic{background:var(--green-soft);color:var(--green)}
+.mod-english .ic{background:var(--blue-soft);color:var(--blue)}
+.mod-ted .ic{background:var(--gold-soft);color:var(--gold)}
+
+.card-body{padding:0 16px 14px}
+
+/* 资讯条目 */
+.item{
+  display:block;padding:12px 0;border-top:1px solid var(--line);
+}
+.item:first-child{border-top:none}
+.item .it-title{
+  font-size:14px;font-weight:600;color:var(--ink);line-height:1.45;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.item:active .it-title{color:var(--brand)}
+.item .it-meta{display:flex;align-items:center;gap:8px;margin-top:6px;font-size:11.5px;color:var(--sub)}
+.item .it-meta .src{background:#f1f5f9;padding:2px 7px;border-radius:5px;color:#475569;font-weight:500}
+.item .it-meta .new{color:var(--rose);font-weight:600}
+.item .it-desc{
+  font-size:12.5px;color:#475569;margin-top:6px;line-height:1.5;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+
+/* TED 卡片 */
+.ted-block{padding:12px 0;border-top:1px solid var(--line)}
+.ted-block:first-child{border-top:none}
+.ted-title{font-size:14.5px;font-weight:700;line-height:1.4}
+.ted-speaker{font-size:12.5px;color:var(--sub);margin-top:4px}
+.ted-video-wrap{
+  position:relative;margin-top:10px;border-radius:10px;overflow:hidden;background:#000;
+  aspect-ratio:16/9;
+}
+.ted-video-wrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.ted-fallback{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  color:#cbd5e1;font-size:12px;text-align:center;padding:0 16px;line-height:1.6;
+  background:linear-gradient(135deg,#1e293b,#0f172a);
+}
+.ted-fallback a{color:#fbbf24;font-weight:600;text-decoration:underline;display:inline-block;margin-top:6px}
+.ted-points{
+  margin-top:10px;background:#fffbeb;border:1px solid #fde68a;border-radius:10px;padding:10px 12px;
+}
+.ted-points .lbl{font-size:11px;font-weight:700;color:var(--gold);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+.ted-points ul{list-style:none}
+.ted-points li{font-size:12.5px;color:#78350f;padding:3px 0 3px 16px;position:relative;line-height:1.5}
+.ted-points li::before{content:"›";position:absolute;left:4px;color:var(--gold);font-weight:700}
+.ted-vocab{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px}
+.ted-vocab .chip{font-size:11px;background:var(--gold-soft);color:#713f12;padding:4px 9px;border-radius:20px;font-weight:500}
+
+/* 英语练习卡 */
+.eng-scene{background:linear-gradient(135deg,#eff6ff,#dbeafe);border-radius:12px;padding:12px 14px;margin-top:4px}
+.eng-scene .scene-lbl{font-size:11px;color:var(--blue);font-weight:700;letter-spacing:.5px}
+.eng-scene .scene-row{display:flex;align-items:flex-start;gap:8px;margin-top:6px}
+.eng-scene .scene-row .text{flex:1;font-size:13.5px;font-weight:600;line-height:1.5}
+.eng-scene .scene-q .text{color:#0f172a}
+.eng-scene .scene-a{margin-top:8px;padding:8px 10px;background:#fff;border-radius:8px;border-left:3px solid var(--blue)}
+.eng-scene .scene-a .text{color:#1e40af;font-size:13px}
+.eng-tip{font-size:12px;color:var(--sub);margin-top:8px}
+.eng-tip b{color:var(--ink)}
+
+/* 发音按钮 */
+.speak-btn{
+  flex-shrink:0;width:30px;height:30px;border-radius:50%;border:none;
+  background:var(--blue);color:#fff;font-size:14px;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 1px 3px rgba(37,99,235,.3);transition:transform .1s;
+}
+.speak-btn:active{transform:scale(.9)}
+.speak-btn.playing{background:#1e40af;animation:speakPulse 1s infinite}
+@keyframes speakPulse{0%,100%{box-shadow:0 0 0 0 rgba(37,99,235,.4)}50%{box-shadow:0 0 0 8px rgba(37,99,235,0)}}
+.speak-btn.sm{width:24px;height:24px;font-size:11px}
+
+/* 语速控制 */
+.speak-ctrl{display:flex;align-items:center;gap:8px;margin-top:10px;font-size:11.5px;color:var(--sub);flex-wrap:wrap}
+.speak-ctrl .lbl{font-weight:600}
+.speak-ctrl .spd{display:flex;background:#f1f5f9;border-radius:8px;padding:2px}
+.speak-ctrl .spd button{
+  border:none;background:transparent;font-size:11px;padding:4px 10px;border-radius:6px;
+  cursor:pointer;color:var(--sub);font-weight:500;
+}
+.speak-ctrl .spd button.active{background:#fff;color:var(--blue);font-weight:700;box-shadow:0 1px 2px rgba(0,0,0,.08)}
+
+/* 词汇 chip 可点击 */
+.ted-vocab .chip{cursor:pointer;transition:background .15s}
+.ted-vocab .chip:active{background:var(--gold);color:#fff}
+.ted-vocab .chip.speaking{background:var(--gold);color:#fff}
+
+/* 空状态/加载 */
+.loading{padding:24px 0;text-align:center;color:var(--sub);font-size:13px}
+.loading .spin{display:inline-block;width:16px;height:16px;border:2px solid var(--line);border-top-color:var(--brand);border-radius:50%;animation:spin .7s linear infinite;vertical-align:-3px;margin-right:6px}
+@keyframes spin{to{transform:rotate(360deg)}}
+.empty{padding:20px 0;text-align:center;color:var(--sub);font-size:12.5px}
+.retry-btn{display:inline-block;margin-top:8px;font-size:12px;color:var(--brand);border:1px solid var(--brand);padding:5px 14px;border-radius:6px;background:#fff}
+.retry-btn:active{background:var(--brand-soft)}
+
+/* 节标题（日期分组） */
+.day-sep{font-size:11px;color:var(--sub);font-weight:600;padding:10px 0 4px;letter-spacing:.5px}
+
+/* ===== 底部导航 ===== */
+.tabbar{
+  position:fixed;left:0;right:0;bottom:0;z-index:50;
+  background:rgba(255,255,255,.92);backdrop-filter:blur(12px);
+  border-top:1px solid var(--line);
+  padding-bottom:var(--safe-bottom);
+  display:flex;
+}
+.tabbar a{
+  flex:1;text-align:center;padding:8px 0 10px;font-size:10.5px;color:var(--sub);font-weight:500;
+}
+.tabbar a .ti{font-size:18px;display:block;margin-bottom:3px}
+.tabbar a.active{color:var(--brand)}
+.tabbar a.active .ti{transform:translateY(-1px)}
+
+/* 切换视图 */
+.view{display:none}
+.view.active{display:block}
+
+/* 底部彩蛋 */
+.foot{text-align:center;font-size:11px;color:#94a3b8;padding:14px 0 6px}
+.foot b{color:var(--brand)}
+</style>
+</head>
+<body>
+
+<!-- ===== 头部 ===== -->
+<header class="hero">
+  <h1>我的专属工作台</h1>
+  <div class="sub">物业资产 · 绿色双碳 · 商务成长 · 每日更新</div>
+  <div class="date-row">
+    <span class="dot"></span>
+    <span id="todayDate">—</span>
+    <span class="grow"></span>
+    <span class="refresh" id="refreshBtn">↻ 刷新</span>
+  </div>
+</header>
+
+<!-- ===== 主视图：今日 ===== -->
+<div class="wrap view active" id="view-today">
+  <!-- 模块1：物业资产 -->
+  <section class="card mod-property" id="mod-property">
+    <div class="card-head">
+      <div class="ic">🏢</div>
+      <div>
+        <h2>物业资产 · 楼宇交易</h2>
+        <div class="tag">商业地产交易 · 持有者动态 · 融资政策</div>
+      </div>
+      <span class="more" data-tab="property">更多 ›</span>
+    </div>
+    <div class="card-body"><div class="loading" id="ld-property"><span class="spin"></span>正在拉取今日楼宇交易资讯…</div></div>
+  </section>
+
+  <!-- 模块2：绿色金融双碳 -->
+  <section class="card mod-green" id="mod-green">
+    <div class="card-head">
+      <div class="ic">🌱</div>
+      <div>
+        <h2>绿色金融 · 双碳动态</h2>
+        <div class="tag">碳达峰碳中和 · 绿色金融 · 可持续发展</div>
+      </div>
+      <span class="more" data-tab="green">更多 ›</span>
+    </div>
+    <div class="card-body"><div class="loading" id="ld-green"><span class="spin"></span>正在拉取今日双碳资讯…</div></div>
+  </section>
+
+  <!-- 模块3：商务英语 -->
+  <section class="card mod-english" id="mod-english">
+    <div class="card-head">
+      <div class="ic">💬</div>
+      <div>
+        <h2>商务英语 · 每日一练</h2>
+        <div class="tag">外企实战场景 · 句型 · 表达</div>
+      </div>
+      <span class="more" data-tab="english">更多 ›</span>
+    </div>
+    <div class="card-body" id="ld-english"></div>
+  </section>
+
+  <!-- 模块4：TED 演讲 -->
+  <section class="card mod-ted" id="mod-ted">
+    <div class="card-head">
+      <div class="ic">🎤</div>
+      <div>
+        <h2>今日 TED · 演讲口才</h2>
+        <div class="tag">短时长演讲 · 学表达 · 练口才</div>
+      </div>
+      <span class="more" data-tab="ted">更多 ›</span>
+    </div>
+    <div class="card-body"><div class="loading" id="ld-ted"><span class="spin"></span>正在获取今日 TED 推荐…</div></div>
+  </section>
+
+  <div class="foot">数据来自公开 RSS 源 · 每日自动更新 · <b>添加到主屏幕</b>即可像 App 一样使用</div>
+</div>
+
+<!-- ===== 子视图：列表 ===== -->
+<div class="wrap view" id="view-list">
+  <section class="card" id="list-card">
+    <div class="card-head">
+      <div class="ic" id="list-ic">📋</div>
+      <div>
+        <h2 id="list-title">全部资讯</h2>
+        <div class="tag" id="list-tag">完整列表</div>
+      </div>
+      <span class="more" data-tab="today">返回 ›</span>
+    </div>
+    <div class="card-body" id="list-body"></div>
+  </section>
+</div>
+
+<!-- ===== 底部导航 ===== -->
+<nav class="tabbar">
+  <a class="active" data-tab="today"><span class="ti">🏠</span>今日</a>
+  <a data-tab="property"><span class="ti">🏢</span>物业</a>
+  <a data-tab="green"><span class="ti">🌱</span>双碳</a>
+  <a data-tab="english"><span class="ti">💬</span>英语</a>
+  <a data-tab="ted"><span class="ti">🎤</span>演讲</a>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>
