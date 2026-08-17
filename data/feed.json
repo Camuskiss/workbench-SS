@@ -1,7 +1,14 @@
 {
-  "fetched_at": "2026-08-17 09:47:02",
+  "fetched_at": "2026-08-17 21:52:41",
   "data": {
     "property": [
+      {
+        "title": "Fields West Signs 7 New Dining & Retail Tenants",
+        "link": "https://www.commercialcafe.com/blog/karahan-signs-7-new-retail-leases-frisco-texas-fields-west/",
+        "desc": "Fields West Signs 7 New Dining & Retail Tenants",
+        "pub": "Mon, 17 Aug 2026 04:14:30 +0000",
+        "source": "CommercialCafe · 商业地产"
+      },
       {
         "title": "First Citizens Bank & Trust Expands San Diego Office Footprint",
         "link": "https://www.commercialcafe.com/blog/first-citizens-bank-trust-expands-san-diego-office-footprint/",
@@ -63,13 +70,6 @@
         "link": "https://www.commercialcafe.com/blog/national-industrial-report/",
         "desc": "July 2026 Industrial Report: Slower EV Sales Push Manufacturers to Rethink Major Investments",
         "pub": "Tue, 28 Jul 2026 11:54:30 +0000",
-        "source": "CommercialCafe · 商业地产"
-      },
-      {
-        "title": "What Early-Career Workers Need from the Workplace",
-        "link": "https://www.commercialcafe.com/blog/early-career-talent/",
-        "desc": "What Early-Career Workers Need from the Workplace",
-        "pub": "Tue, 28 Jul 2026 09:48:24 +0000",
         "source": "CommercialCafe · 商业地产"
       },
       {
@@ -355,76 +355,6 @@
     ],
     "green": [
       {
-        "title": "Flock Safety is Under Fire, But It’s Only a Part of Modern Mass Surveillance",
-        "link": "https://triplepundit.com/2026/flock-safety-fourth-amendment-mass-surveillance/",
-        "desc": "A community cancelled their contract with Flock Safety almost every single day last month. While Flock is getting the most press and community blowback, it’s far from the only company assisting U.S. law enforcement with surveillance technology. TriplePundit",
-        "pub": "Thu, 13 Aug 2026 17:46:02 +0000",
-        "source": "TriplePundit · 可持续商业"
-      },
-      {
-        "title": "Will Balcony Solar Ever Take Off in the United States?",
-        "link": "https://triplepundit.com/2026/what-is-balcony-solar-development-united-states/",
-        "desc": "Balcony solar systems help people reduce their utility bills, with solar power feeding directly into a standard wall outlet to replace energy from the grid. The balcony solar movement in the U.S. is growing, but not all states are on board (yet).TriplePundit",
-        "pub": "Mon, 10 Aug 2026 12:00:00 +0000",
-        "source": "TriplePundit · 可持续商业"
-      },
-      {
-        "title": "Planned USDA Restructuring Will Hurt Farmers Already at the Brink, Advocates Say",
-        "link": "https://triplepundit.com/2026/usda-reorganization-restructuring-hurt-farmers/",
-        "desc": "Amid heavy criticism, the USDA plans to go ahead with a massive reorganization and forced relocation of nearly 3,000 workers. Advocates say it couldn’t come at a worse time, as a Super El Niño threatens a return to the Dust Bowl and a parasite eradicated 60 years ago reemerges on U.S. livestock farm",
-        "pub": "Fri, 07 Aug 2026 16:16:06 +0000",
-        "source": "TriplePundit · 可持续商业"
-      },
-      {
-        "title": "The Alaska Native Villages Where Rivers Provide Power",
-        "link": "https://triplepundit.com/2026/hydrokinetic-river-turbine-renewable-energy-alaska-salmon/",
-        "desc": "In one Alaskan village, turbines have harnessed electricity from the river since 2019. This summer, a second village is testing its own turbine in an attempt to reach 100 percent renewable power.TriplePundit",
-        "pub": "Thu, 06 Aug 2026 12:00:00 +0000",
-        "source": "TriplePundit · 可持续商业"
-      },
-      {
-        "title": "Nigerian Farmers Cut Fuel Costs and Boost Yields with Solar-Powered Irrigation",
-        "link": "https://triplepundit.com/2026/nigeria-drought-smallholder-farmers-solar-powered-irrigation/",
-        "desc": "Nigerian farmers are facing all-time high fuel prices, hindering their ability to grow in the dry season. Some are looking to solar-powered irrigation systems as a more affordable way to boost their yields. TriplePundit",
-        "pub": "Tue, 04 Aug 2026 12:00:00 +0000",
-        "source": "TriplePundit · 可持续商业"
-      },
-      {
-        "title": "Microtransit Brings Public Transportation to Rural Doorsteps",
-        "link": "https://triplepundit.com/2026/rural-microtransit-fare-free-public-transportation-access/",
-        "desc": "Public buses and trains don’t usually extend into the outskirts of rural communities, if they stop in them at all. Microtransit helps more rural residents reach their local station, but it comes at a cost. TriplePundit",
-        "pub": "Tue, 28 Jul 2026 20:53:10 +0000",
-        "source": "TriplePundit · 可持续商业"
-      },
-      {
-        "title": "The U.S. is On a Wartime Spending Spree As Critical Infrastructure Crumbles",
-        "link": "https://triplepundit.com/2026/iran-war-cost-infrastructure-spending-shortfall/",
-        "desc": "The U.S. federal government is spending billions in taxpayer dollars on foreign wars and immigration enforcement while basic needs at home go unfunded and unaddressed.TriplePundit",
-        "pub": "Fri, 24 Jul 2026 21:14:19 +0000",
-        "source": "TriplePundit · 可持续商业"
-      },
-      {
-        "title": "Free Public Transit Is Trending in Rural Washington",
-        "link": "https://triplepundit.com/2026/free-public-transit-rural-communities-western-washington/",
-        "desc": "Anyone in Washington can travel hundreds of miles by bus without paying a cent. As gas prices and the cost of living climb, transit ridership is rising in counties with zero-fare programs.TriplePundit",
-        "pub": "Tue, 21 Jul 2026 12:00:00 +0000",
-        "source": "TriplePundit · 可持续商业"
-      },
-      {
-        "title": "While Mainstream Media Was Sleeping, Citizen Journalists Were Still Watching ICE",
-        "link": "https://triplepundit.com/2026/role-citizen-journalists-observers-documenting-ice/",
-        "desc": "Frequent contradictions between witness testimony, video evidence, and official accounts underscores the powerful role of citizen journalists in making the truth about violent ICE interactions known to the public.TriplePundit",
-        "pub": "Fri, 17 Jul 2026 20:16:09 +0000",
-        "source": "TriplePundit · 可持续商业"
-      },
-      {
-        "title": "In Photos: On the Road with a Montana Range Rider Who Tracks Predators on Horseback",
-        "link": "https://triplepundit.com/2026/range-rider-blackfoot-valley-montana-human-wildlife-conflict/",
-        "desc": "Range riders are reemerging in the western U.S. in response to the slow but sure resurgence of apex predators. As the animals return to their former territories, now also home to people, new tensions are emerging. TriplePundit",
-        "pub": "Tue, 14 Jul 2026 21:20:10 +0000",
-        "source": "TriplePundit · 可持续商业"
-      },
-      {
         "title": "Scientists detect a surprising shift in human blood as atmospheric CO2 rises",
         "link": "https://www.sciencedaily.com/releases/2026/08/260814235845.htm",
         "desc": "Rising carbon dioxide in the atmosphere may be leaving a measurable imprint inside the human body. Researchers analyzing more than two decades of U.S. health data found that blood bicarbonate levels have climbed about 7% since 1999, while calcium and phosphorus have declined—changes that closely tra",
@@ -703,6 +633,428 @@
         "desc": "Scientists have identified a hidden feedback loop that may explain how Earth has regulated its climate for tens of millions of years. As sea levels rose and fell, they changed how much phosphate reached the open ocean, affecting marine life and the amount of carbon buried beneath the seafloor. That ",
         "pub": "Thu, 16 Jul 2026 08:37:26 EDT",
         "source": "ScienceDaily · 地球与气候"
+      },
+      {
+        "title": "Tiny plastics in drinking water may be making dangerous bacteria stronger",
+        "link": "https://www.sciencedaily.com/releases/2026/07/260714225532.htm",
+        "desc": "Tiny plastic particles in drinking water may be doing more than contaminating the environment. New research suggests nanoplastics can actually help harmful bacteria survive by strengthening the slimy biofilms they form inside water systems. These tougher biofilms become more resistant to disinfectan",
+        "pub": "Fri, 17 Jul 2026 09:14:10 EDT",
+        "source": "ScienceDaily · 地球与气候"
+      },
+      {
+        "title": "NASA captured the Black Sea turning brilliant turquoise from space",
+        "link": "https://www.sciencedaily.com/releases/2026/07/260713084900.htm",
+        "desc": "NASA's PACE satellite captured the Black Sea glowing turquoise during its annual phytoplankton bloom. The vivid color comes from massive numbers of coccolithophores, microscopic organisms whose reflective shells brighten the water enough to be seen from space. An astronaut aboard the International S",
+        "pub": "Wed, 15 Jul 2026 09:21:38 EDT",
+        "source": "ScienceDaily · 地球与气候"
+      },
+      {
+        "title": "A 37-year soil experiment revealed a hidden climate threat",
+        "link": "https://www.sciencedaily.com/releases/2026/07/260713000809.htm",
+        "desc": "The world's longest-running soil warming experiment has revealed an unexpected climate concern. After nearly four decades, researchers found that warming can cause microbes to break down stable soil carbon that scientists once believed was largely protected. That releases extra carbon dioxide into t",
+        "pub": "Tue, 14 Jul 2026 07:56:17 EDT",
+        "source": "ScienceDaily · 地球与气候"
+      },
+      {
+        "title": "Deep-sea life has a secret food source scientists never expected",
+        "link": "https://www.sciencedaily.com/releases/2026/07/260711010127.htm",
+        "desc": "Scientists discovered that extreme deep-sea pressure squeezes valuable nutrients out of sinking organic particles, providing an unexpected food source for ocean microbes. The finding could rewrite our understanding of both deep-ocean ecosystems and how carbon is stored on Earth.",
+        "pub": "Sun, 12 Jul 2026 08:14:55 EDT",
+        "source": "ScienceDaily · 地球与气候"
+      },
+      {
+        "title": "Scientists finally solved the mystery of Earth's greatest mass extinction",
+        "link": "https://www.sciencedaily.com/releases/2026/07/260711010122.htm",
+        "desc": "Why do beaches today have seashells from clams and snails instead of brachiopods? A new study suggests the answer lies in Earth's greatest mass extinction, when warming oceans and falling oxygen levels wiped out animals that couldn't adapt. Species with body plans and metabolisms better suited to th",
+        "pub": "Sun, 12 Jul 2026 00:02:00 EDT",
+        "source": "ScienceDaily · 地球与气候"
+      },
+      {
+        "title": "Scientists warn invasive Asian mantises are threatening Europe's wildlife",
+        "link": "https://www.sciencedaily.com/releases/2026/07/260710003540.htm",
+        "desc": "Two striking Asian praying mantis species that have rapidly spread across Europe have now been officially classified as invasive, raising new concerns about their impact on native wildlife. Boosted by climate change and urban environments, these fast-breeding predators are expanding northward, where",
+        "pub": "Sat, 11 Jul 2026 08:53:55 EDT",
+        "source": "ScienceDaily · 地球与气候"
+      },
+      {
+        "title": "NASA satellites are watching Earth's newest island rise from the sea",
+        "link": "https://www.sciencedaily.com/releases/2026/07/260710003517.htm",
+        "desc": "A newly discovered underwater volcanic eruption north of Papua New Guinea is unfolding in one of the world's most poorly mapped ocean basins. Satellites have spotted steam plumes, ash, thermal hotspots, and huge floating pumice rafts, suggesting magma is rising surprisingly close to the surface. Sci",
+        "pub": "Fri, 10 Jul 2026 18:57:49 EDT",
+        "source": "ScienceDaily · 地球与气候"
+      },
+      {
+        "title": "Europe's most active volcano may have a secret origin",
+        "link": "https://www.sciencedaily.com/releases/2026/07/260709160653.htm",
+        "desc": "Mount Etna has long puzzled geologists because it doesn't fit any of the three classic ways volcanoes are thought to form. A new study suggests it may instead be fueled by ancient pockets of magma that are pushed upward through cracks created by shifting tectonic plates. If confirmed, Etna could bel",
+        "pub": "Fri, 10 Jul 2026 07:16:59 EDT",
+        "source": "ScienceDaily · 地球与气候"
+      },
+      {
+        "title": "This common pesticide may be quietly wiping out future bumblebees",
+        "link": "https://www.sciencedaily.com/releases/2026/07/260709160630.htm",
+        "desc": "A next-generation pesticide designed to kill crop pests may also be interfering with the reproductive health of bumblebees. Researchers discovered that low-dose exposure to sulfoxaflor changed gene activity, especially in tissues involved in reproduction, raising concerns about long-term impacts on ",
+        "pub": "Fri, 10 Jul 2026 07:58:21 EDT",
+        "source": "ScienceDaily · 地球与气候"
+      },
+      {
+        "title": "Trees keep absorbing carbon long after they stop growing",
+        "link": "https://www.sciencedaily.com/releases/2026/07/260708022210.htm",
+        "desc": "Oak trees keep absorbing carbon dioxide long after their annual growth has ended, revealing that photosynthesis and wood production are not as closely linked as scientists once believed. The finding could reshape forecasts of how much carbon forests will be able to store in a warmer future.",
+        "pub": "Thu, 09 Jul 2026 02:28:44 EDT",
+        "source": "ScienceDaily · 地球与气候"
+      }
+    ],
+    "news": [
+      {
+        "title": "Ukraine energy company says its facilities seriously damaged after 13 Russian strikes",
+        "link": "https://abcnews.com/International/wireStory/ukraine-energy-company-facilities-damaged-after-13-russian-135702269",
+        "desc": "Ukraine’s state energy company says Russia has attacked its facilities 13 times over the past week, with nearly 300 attacks this year",
+        "pub": "Mon, 17 Aug 2026 08:38:27 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "New recruits are joining the military in big numbers, but not for reason Hegseth says",
+        "link": "https://abcnews.com/Politics/new-recruits-joining-military-big-numbers-reason-hegseth/story?id=135546620",
+        "desc": "The military’s recruiting rebound is real, but the reasons behind it are far less political than Hegseth’s framing suggests.",
+        "pub": "Mon, 17 Aug 2026 08:28:57 -0400",
+        "source": "ABC News · 头条"
+      },
+      {
+        "title": "USS Washington to relieve USS Lincoln. And, Jared Kushner to meet with Netanyahu",
+        "link": "https://www.npr.org/2026/08/17/g-s1-138973/up-first-newsletter-uss-lincoln-meta-israel-hamas-ukraine-russia",
+        "desc": "The USS Washington is on its way to the Middle East to relieve the USS Lincoln amid concerns about conditions aboard. And, Jared Kushner is expected to meet with Prime Minister Netanyahu to move Gaza talks forward.",
+        "pub": "Mon, 17 Aug 2026 07:48:21 -0400",
+        "source": "NPR · 世界"
+      },
+      {
+        "title": "Hayden Panettiere, star of 'Heroes' and 'Nashville,' dies at 36",
+        "link": "https://abcnews.com/US/hayden-panettiere-dies-36/story?id=135698473",
+        "desc": "Her representative confirmed her death to ABC News.",
+        "pub": "Mon, 17 Aug 2026 07:37:41 -0400",
+        "source": "ABC News · 头条"
+      },
+      {
+        "title": "Actress Hayden Panettiere remembered as 'amazing talent' after death at 36",
+        "link": "https://abcnews.com/GMA/Culture/actress-hayden-panettiere-remembered-amazing-talent-after-death/story?id=135700489",
+        "desc": "Panettiere, star of \"Heroes\" and \"Nashville,\" died at 36, her representative told ABC News.",
+        "pub": "Mon, 17 Aug 2026 05:55:42 -0400",
+        "source": "ABC News · 头条"
+      },
+      {
+        "title": "At least 6 dead after Ukraine launches aerial attack on Russia",
+        "link": "https://www.npr.org/2026/08/17/nx-s1-5933059/at-least-6-dead-after-ukraine-launches-aerial-attack-on-russia",
+        "desc": "Ukraine launched one of its largest aerial attacks of the war on Russia, killing at least six people. How are Russians feeling as the war grinds on?",
+        "pub": "Mon, 17 Aug 2026 04:50:38 -0400",
+        "source": "NPR · 世界"
+      },
+      {
+        "title": "As war with Ukraine wages on, a look at life inside Russia",
+        "link": "https://www.npr.org/2026/08/17/nx-s1-5933043/as-war-with-ukraine-wages-on-a-look-at-life-inside-russia",
+        "desc": "NPR's Sacha Pfeiffer speaks with Nina Krushcheva, professor of international affairs at the New School, about the current geopolitical climate in Russia.",
+        "pub": "Mon, 17 Aug 2026 04:50:29 -0400",
+        "source": "NPR · 世界"
+      },
+      {
+        "title": "A temple stampede and a hotel fire in eastern India kill 14 and injure several",
+        "link": "https://abcnews.com/International/wireStory/temple-stampede-hotel-fire-eastern-india-kill-14-135700067",
+        "desc": "Seven devotees were killed and more than a dozen injured in a stampede at a Hindu temple in eastern India's Bihar state",
+        "pub": "Mon, 17 Aug 2026 03:33:28 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Andrew Garfield finds wonder in everyday life in ‘The Magic Faraway Tree’",
+        "link": "https://abcnews.com/Entertainment/wireStory/andrew-garfield-finds-everyday-life-magic-faraway-tree-135699404",
+        "desc": "Andrew Garfield stars in The Magic Faraway Tree, a fantasy adventure based on Enid Blyton’s books, about a family discovering magical worlds after moving to the countryside",
+        "pub": "Mon, 17 Aug 2026 03:17:08 -0400",
+        "source": "ABC News · 娱乐"
+      },
+      {
+        "title": "Myanmar’s Min Aung Hlaing heads to Russia to deepen strategic ties with Moscow",
+        "link": "https://abcnews.com/International/wireStory/myanmars-min-aung-hlaing-heads-russia-deepen-strategic-135700242",
+        "desc": "The head of Myanmar’s military-backed government embarked on an official visit to Russia to hold talks with President Vladimir Putin",
+        "pub": "Mon, 17 Aug 2026 03:16:02 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "After killing hundreds in boat strikes, US military expands campaign on land in Latin America",
+        "link": "https://abcnews.com/International/wireStory/after-killing-hundreds-boat-strikes-us-military-expands-135700333",
+        "desc": "The Trump administration says it is seeking to expand its lethal campaign of bombing boats off Latin America’s Caribbean and Pacific coasts onto land",
+        "pub": "Mon, 17 Aug 2026 03:15:57 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Thousands in Indonesia await aid after quake kills 54, overshadowing Independence Day",
+        "link": "https://abcnews.com/International/wireStory/thousands-indonesia-await-aid-after-quake-kills-54-135699777",
+        "desc": "Thousands of people on Indonesia’s Flores Island are still waiting for aid after a powerful magnitude 7.7 earthquake killed at least 54 people, injured 135 and damaged more than 1,300 homes",
+        "pub": "Mon, 17 Aug 2026 02:26:56 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
+        "link": "https://www.npr.org/2026/08/17/g-s1-138969/trump-exercises-south-korea",
+        "desc": "President Trump explained the decision by saying South Korea had declined to help with the \"denuclearization\" of Iran and he cited his good relationship with North Korea's leader.",
+        "pub": "Mon, 17 Aug 2026 01:21:39 -0400",
+        "source": "NPR · 世界"
+      },
+      {
+        "title": "Japan's economy manages 1.1% growth rate despite headwinds",
+        "link": "https://abcnews.com/International/wireStory/japans-economy-manages-11-growth-rate-despite-headwinds-135698570",
+        "desc": "Japan’s economy grew an annualized rate of 1.1% in the April-June quarter, even as private consumption stayed flat and the growth of exports declined",
+        "pub": "Mon, 17 Aug 2026 00:41:17 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Photos show Cambodian children attend school in floating villages along the Tonle Sap lake.",
+        "link": "https://abcnews.com/International/wireStory/photos-show-cambodian-children-attend-school-floating-villages-135699865",
+        "desc": "On Cambodia’s Tonle Sap, the largest freshwater lake in Southeast Asia, getting anywhere has always meant navigating the water. It isn’t any different for schoolchildren.\n\nMost mornings, a gas-powered boat chugs through Kampong Prahok floating village, steered by students often no older than those c",
+        "pub": "Mon, 17 Aug 2026 00:23:47 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Ukraine takes aim at Russia’s economy and morale by attacking online retailer",
+        "link": "https://abcnews.com/International/wireStory/ukraine-takes-aim-russias-economy-morale-attacking-online-135699592",
+        "desc": "Day after day over recent weeks, Ukrainian drones have pummeled giant depots belonging to Wildberries, the country’s biggest online retailer, burning estimated billions of dollars’ worth of merchandise and bringing the war home to the broad public",
+        "pub": "Mon, 17 Aug 2026 00:18:27 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Rescuers in Indonesia recover 6 more bodies in earthquake aftermath, raising death toll to 53",
+        "link": "https://abcnews.com/International/wireStory/rescuers-dig-rubble-landslides-after-indonesia-quake-kills-135682965",
+        "desc": "Rescue teams in eastern Indonesia recovered six more bodies a day after a magnitude 7.7 earthquake",
+        "pub": "Mon, 17 Aug 2026 00:02:14 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "WATCH:  Lala batters the Hawaiian Islands",
+        "link": "https://abcnews.com/video/135694250/",
+        "desc": "Torrential rain, flash flooding and damaging winds slammed the Hawaiian Islands as Lala delivers a devastating blow.",
+        "pub": "Sun, 16 Aug 2026 21:43:06 -0400",
+        "source": "ABC News · 头条"
+      },
+      {
+        "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
+        "link": "https://abcnews.com/US/wireStory/trump-orders-pentagon-scale-back-joint-exercises-south-135694217",
+        "desc": "President Donald Trump has ordered the Pentagon to scale back planned joint military exercises with South Korea after the Republican president said it declined to help denuclearize Iran",
+        "pub": "Sun, 16 Aug 2026 18:50:26 -0400",
+        "source": "ABC News · 头条"
+      },
+      {
+        "title": "Kushner meets with Hamas on the Gaza road map ahead of talks with Netanyahu",
+        "link": "https://www.npr.org/2026/08/16/g-s1-138948/kushner-gaza-hamas-netanyahu-egypt-talks",
+        "desc": "Jared Kushner, President Trump's son-in-law, held a rare meeting with Hamas leadership Sunday in Egypt, in a new diplomatic effort to make progress in the stalled Gaza ceasefire.",
+        "pub": "Sun, 16 Aug 2026 16:20:22 -0400",
+        "source": "NPR · 世界"
+      },
+      {
+        "title": "Moroccan security forces arrest nearly 300 migrants trying to reach Spain’s Ceuta",
+        "link": "https://abcnews.com/International/wireStory/moroccan-security-forces-arrest-300-migrants-reach-spains-135692740",
+        "desc": "Moroccan security forces have arrested hundreds of migrants trying to reach the Spanish enclave of Ceuta by land and sea",
+        "pub": "Sun, 16 Aug 2026 15:50:49 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "12 more bodies are recovered in Zimbabwe's ferry disaster, bringing death toll to 84",
+        "link": "https://abcnews.com/International/wireStory/12-bodies-recovered-zimbabwes-ferry-disaster-bringing-death-135692930",
+        "desc": "Authorities in Zimbabwe continue searching for bodies after an overloaded ferry capsized on Lake Kariba last week, killing more than 80 people",
+        "pub": "Sun, 16 Aug 2026 15:50:27 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Top US commander visits aircraft carrier, Gaza talks in Egypt and other Mideast news",
+        "link": "https://abcnews.com/International/wireStory/us-top-middle-east-commander-visits-deployed-aircraft-135684259",
+        "desc": "The top U.S. military commander in the Middle East has visited the long-deployed USS Lincoln in the Arabian Sea",
+        "pub": "Sun, 16 Aug 2026 15:46:15 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Thieves steal 4 Renaissance artworks in Sicilian museum heist",
+        "link": "https://abcnews.com/International/wireStory/thieves-steal-4-renaissance-artworks-sicilian-museum-heist-135685153",
+        "desc": "The thieves bypassed alarm and security systems at the MuMe museum.",
+        "pub": "Sun, 16 Aug 2026 15:22:20 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Brazil's Lula and Flávio Bolsonaro return to their strongholds to kick off presidential campaigns",
+        "link": "https://abcnews.com/International/wireStory/brazils-lula-flvio-bolsonaro-kick-off-presidential-campaigns-135690863",
+        "desc": "Brazil's presidential candidates have kicked off their campaigns ahead of what is expected to be tight election in October",
+        "pub": "Sun, 16 Aug 2026 15:14:28 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Firefighters battle massive Belgian wildfire, forcing hundreds to evacuate",
+        "link": "https://abcnews.com/International/wireStory/firefighters-battle-massive-belgian-wildfire-forcing-hundreds-evacuate-135684266",
+        "desc": "Firefighters are battling wildfires in Belgium and Greece, with a massive blaze scorching a nature reserve in eastern Belgium",
+        "pub": "Sun, 16 Aug 2026 15:14:21 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia",
+        "link": "https://abcnews.com/International/wireStory/ukraine-launches-largest-aerial-attacks-war-killing-6-135684169",
+        "desc": "Ukraine has launched hundreds of drones across Russia, killing at least six people in one of Kyiv’s largest aerial attacks of the war",
+        "pub": "Sun, 16 Aug 2026 14:34:15 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Box Office: ‘Spider-Man’ stays on top while two dino movies battle for third",
+        "link": "https://abcnews.com/Entertainment/wireStory/box-office-spider-man-stays-top-dino-movies-135690332",
+        "desc": "Two dinosaur movies made a modest impact at the North American box office.",
+        "pub": "Sun, 16 Aug 2026 14:18:22 -0400",
+        "source": "ABC News · 娱乐"
+      },
+      {
+        "title": "BBC asks a US court for help in getting testimony from the Trump family in defamation suit",
+        "link": "https://abcnews.com/International/wireStory/bbc-asks-us-court-testimony-trump-family-defamation-135689479",
+        "desc": "The BBC has asked a U.S. court for help getting documents and testimony from U.S. President Donald Trump's family in connection to his $10-billion defamation lawsuit against the broadcaster",
+        "pub": "Sun, 16 Aug 2026 14:17:34 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Kushner has a rare meeting with Hamas' leader on the Gaza road map. A meeting with Netanyahu is next",
+        "link": "https://abcnews.com/International/wireStory/kushner-rare-meeting-hamas-leader-gaza-road-map-135691312",
+        "desc": "U.S. negotiator Jared Kushner has held a rare meeting with the Hamas chief in Egypt in a push to make progress on the stalled Gaza ceasefire",
+        "pub": "Sun, 16 Aug 2026 14:17:11 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Colombian president asks Trump to suspend tariffs to help earthquake recovery",
+        "link": "https://abcnews.com/International/wireStory/colombian-president-asks-trump-suspend-tariffs-earthquake-recovery-135690740",
+        "desc": "Colombia's President Abelardo de la Espriella has asked U.S. President Donald Trump to suspend tariffs to help Colombia recover from a devastating earthquake",
+        "pub": "Sun, 16 Aug 2026 14:13:37 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Bou Meng, a Cambodian artist and survivor of a Khmer Rouge torture center, has died at 85",
+        "link": "https://abcnews.com/Entertainment/wireStory/bou-meng-cambodian-artist-survivor-khmer-rouge-torture-135686923",
+        "desc": "Cambodian artist Bou Meng, one of only seven people known to have survived a notorious Khmer Rouge torture center, has died at 85",
+        "pub": "Sun, 16 Aug 2026 13:30:33 -0400",
+        "source": "ABC News · 娱乐"
+      },
+      {
+        "title": "A good – and bad – week for Italy's art police and museum security",
+        "link": "https://www.npr.org/2026/08/16/nx-s1-5933052/sicily-art-heist-museum-parma",
+        "desc": "On Friday, Italian police said they'd recovered three paintings stolen from a museum near the city of Parma. By Saturday night, thieves in Sicily had made off with four more masterpieces.",
+        "pub": "Sun, 16 Aug 2026 12:27:54 -0400",
+        "source": "NPR · 世界"
+      },
+      {
+        "title": "Generational divide at forefront in New England Democratic primaries",
+        "link": "https://abcnews.com/Politics/generational-divide-forefront-new-england-democratic-primaries/story?id=135685342",
+        "desc": "Sen. Ed Markey is locked in a primary battle with Rep. Seth Moulton to defend his seat.",
+        "pub": "Sun, 16 Aug 2026 11:52:45 -0400",
+        "source": "ABC News · 头条"
+      },
+      {
+        "title": "What really happened in Ceuta? Why we may never find out",
+        "link": "https://www.npr.org/2026/08/16/nx-s1-5927053/what-happened-in-ceuta",
+        "desc": "Hundreds of migrants have again attempted to cross from Morocco into the Spanish territory of Ceuta. This time, Moroccan officials fended them off, raising new questions about the crossing of July 30.",
+        "pub": "Sun, 16 Aug 2026 11:38:22 -0400",
+        "source": "NPR · 世界"
+      },
+      {
+        "title": "Ben Franklin chose America. Son William chose the crown. This civil war is a microcosm of revolution",
+        "link": "https://abcnews.com/International/wireStory/ben-franklin-chose-america-son-william-chose-crown-135685341",
+        "desc": "Benjamin Franklin's son William was buried in London following his death in 1813, more than three decades after he was forced to leave America",
+        "pub": "Sun, 16 Aug 2026 11:32:11 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Israel's Ben Gvir advocates killing '30 to 40' people in Gaza nightly while speaking to ex-hostage",
+        "link": "https://abcnews.com/International/wireStory/israels-ben-gvir-advocates-killing-30-40-people-135687845",
+        "desc": "An extremist official in Prime Minister Benjamin Netanyahu's cabinet has advocated for killing “30 to 40” people in Gaza each night",
+        "pub": "Sun, 16 Aug 2026 11:30:12 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "GOP Sen. Bill Cassidy on Trump’s vaccine executive order: ‘Stupid thing to do’",
+        "link": "https://abcnews.com/Politics/gop-sen-bill-cassidy-trumps-vaccine-executive-order/story?id=135685348",
+        "desc": "Republican Sen. Bill Cassidy said on ABC News' \"This Week\" that Trump's executive order on vaccines was a \"stupid thing to do.\"",
+        "pub": "Sun, 16 Aug 2026 10:20:10 -0400",
+        "source": "ABC News · 头条"
+      },
+      {
+        "title": "Gallego blames Trump administration for Lincoln conditions: 'True lack of leadership'",
+        "link": "https://abcnews.com/Politics/gallego-blames-trump-administration-uss-lincoln-conditions-true/story?id=135685345",
+        "desc": "Adm. Mullen says morale has improved since the crew learned it's going home.",
+        "pub": "Sun, 16 Aug 2026 09:46:54 -0400",
+        "source": "ABC News · 头条"
+      },
+      {
+        "title": "Ukraine launches one of its largest aerial attacks of the war, killing at least 6 people in Russia",
+        "link": "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia",
+        "desc": "Ukraine launched hundreds of drones across Russia Sunday, killing at least six people in one of Kyiv's largest aerial attacks of the war.",
+        "pub": "Sun, 16 Aug 2026 06:12:09 -0400",
+        "source": "NPR · 世界"
+      },
+      {
+        "title": "Bus crash in Hungary kills 12 people, injures at least 10 others",
+        "link": "https://abcnews.com/International/wireStory/bus-crash-hungary-kills-12-people-injures-10-135684155",
+        "desc": "Police say a passenger bus traveling on a highway in Hungary early Sunday went off the road and into a ditch where it overturned, killing 12 and injuring others",
+        "pub": "Sun, 16 Aug 2026 05:31:12 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Avocado pickers in Mexico welcome restart of exports to US, but security fears remain",
+        "link": "https://abcnews.com/International/wireStory/avocado-pickers-mexico-restart-exports-us-security-fears-135683981",
+        "desc": "Authorities have lifted a U.S. security alert that halted avocado exports from Michoacán, Mexico's main avocado-producing state",
+        "pub": "Sun, 16 Aug 2026 02:22:35 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Athens cleans its all-marble Olympic stadium for the first time in over a century",
+        "link": "https://abcnews.com/International/wireStory/athens-cleaning-marble-olympic-stadium-time-century-135683788",
+        "desc": "Athens’ iconic Panathenaic Stadium is undergoing its first systematic cleaning in more than a century",
+        "pub": "Sun, 16 Aug 2026 02:21:03 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "WATCH:  Joshua Baez becomes first MLB player to hit 3 homers in debut",
+        "link": "https://abcnews.com/video/135680711/",
+        "desc": "Cardinals rookie outfielder Joshua Baez made MLB history by becoming the first player to hit three home runs in his big league debut.",
+        "pub": "Sat, 15 Aug 2026 20:47:05 -0400",
+        "source": "ABC News · 头条"
+      },
+      {
+        "title": "Bonnie Tyler fans line the streets of a Welsh village as her coffin is brought home",
+        "link": "https://abcnews.com/Entertainment/wireStory/bonnie-tyler-fans-line-streets-welsh-village-coffin-135675211",
+        "desc": "Fans have gathered in a Welsh village to bid farewell to singer Bonnie Tyler",
+        "pub": "Sat, 15 Aug 2026 14:58:20 -0400",
+        "source": "ABC News · 娱乐"
+      },
+      {
+        "title": "Families of USS Lincoln crew say Trump should be 'ashamed' of conditions on board",
+        "link": "https://www.npr.org/2026/08/15/nx-s1-5932539/uss-lincoln-trump-dire-conditions",
+        "desc": "President Trump said the USS Abraham Lincoln deployment is \"not nearly long enough.\" A family member of a sailor on board that ship said those comments are shameful.",
+        "pub": "Sat, 15 Aug 2026 14:21:32 -0400",
+        "source": "NPR · 世界"
+      },
+      {
+        "title": "22 more bodies recovered in Zimbabwe ferry disaster, bringing death toll to 68, police say",
+        "link": "https://abcnews.com/International/wireStory/22-bodies-recovered-zimbabwe-ferry-disaster-bringing-death-135676352",
+        "desc": "Police say 18 children are among the nearly 70 people killed this week when an overloaded ferry capsized on Lake Kariba in Zimbabwe",
+        "pub": "Sat, 15 Aug 2026 14:10:20 -0400",
+        "source": "ABC News · 国际"
+      },
+      {
+        "title": "Jason Arday, Cambridge professor accused of plagiarism, is found dead",
+        "link": "https://www.npr.org/2026/08/15/nx-s1-5932488/jason-arday-dead",
+        "desc": "Arday was 37 when he became Cambridge's youngest Black professor in 2023. He was found unresponsive Friday at a home in southwest London.",
+        "pub": "Sat, 15 Aug 2026 13:04:43 -0400",
+        "source": "NPR · 世界"
+      },
+      {
+        "title": "WATCH:  \"Garage Dads\" workouts with former NFL player Isaac Rochell",
+        "link": "https://abcnews.com/video/135673301/",
+        "desc": "Isaac Rochell, founder of \"Garage Dads,\" demonstrates workouts designed to challenge participants and help them become stronger.",
+        "pub": "Sat, 15 Aug 2026 12:55:16 -0400",
+        "source": "ABC News · 头条"
+      },
+      {
+        "title": "WATCH:  'GMA' tracks down woman who inspired a best-selling novel",
+        "link": "https://abcnews.com/video/135672729/",
+        "desc": "After author Annabel Monaghan revealed that her “GMA” Book Club June pick, “Dolly All the Time,” was inspired by a fan, “GMA” tracked down the woman who inspired the character.",
+        "pub": "Sat, 15 Aug 2026 12:53:24 -0400",
+        "source": "ABC News · 头条"
       }
     ]
   }

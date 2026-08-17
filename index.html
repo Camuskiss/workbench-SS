@@ -74,6 +74,7 @@ img{max-width:100%;display:block}
 /* 分类色 */
 .mod-property .ic{background:var(--brand-soft);color:var(--brand)}
 .mod-green .ic{background:var(--green-soft);color:var(--green)}
+.mod-news .ic{background:#ede9fe;color:#7c3aed}
 .mod-english .ic{background:var(--blue-soft);color:var(--blue)}
 .mod-ted .ic{background:var(--gold-soft);color:var(--gold)}
 
@@ -238,7 +239,20 @@ img{max-width:100%;display:block}
     <div class="card-body"><div class="loading" id="ld-green"><span class="spin"></span>正在拉取今日双碳资讯…</div></div>
   </section>
 
-  <!-- 模块3：商务英语 -->
+  <!-- 模块3：每日热点新闻 -->
+  <section class="card mod-news" id="mod-news">
+    <div class="card-head">
+      <div class="ic">📰</div>
+      <div>
+        <h2>每日热点新闻</h2>
+        <div class="tag">国际 · 娱乐 · 社会热点 · 每日更新</div>
+      </div>
+      <span class="more" data-tab="news">更多 ›</span>
+    </div>
+    <div class="card-body"><div class="loading" id="ld-news"><span class="spin"></span>正在拉取今日热点新闻…</div></div>
+  </section>
+
+  <!-- 模块4：商务英语 -->
   <section class="card mod-english" id="mod-english">
     <div class="card-head">
       <div class="ic">💬</div>
@@ -287,6 +301,7 @@ img{max-width:100%;display:block}
   <a class="active" data-tab="today"><span class="ti">🏠</span>今日</a>
   <a data-tab="property"><span class="ti">🏢</span>物业</a>
   <a data-tab="green"><span class="ti">🌱</span>双碳</a>
+  <a data-tab="news"><span class="ti">📰</span>热点</a>
   <a data-tab="english"><span class="ti">💬</span>英语</a>
   <a data-tab="ted"><span class="ti">🎤</span>演讲</a>
 </nav>

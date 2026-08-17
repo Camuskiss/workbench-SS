@@ -52,6 +52,43 @@ const SOURCES = {
       lang:'en',
       desc:true
     }
+  ],
+  news: [
+    {
+      name:'ABC News · 头条',
+      url:'https://abcnews.go.com/abcnews/topstories',
+      type:'rss',
+      lang:'en',
+      desc:true
+    },
+    {
+      name:'ABC News · 国际',
+      url:'https://abcnews.go.com/abcnews/internationalheadlines',
+      type:'rss',
+      lang:'en',
+      desc:true
+    },
+    {
+      name:'ABC News · 娱乐',
+      url:'https://abcnews.go.com/abcnews/entertainmentheadlines',
+      type:'rss',
+      lang:'en',
+      desc:true
+    },
+    {
+      name:'NPR · 世界',
+      url:'https://feeds.npr.org/1004/rss.xml',
+      type:'rss',
+      lang:'en',
+      desc:true
+    },
+    {
+      name:'NPR · 文艺',
+      url:'https://feeds.npr.org/1048/rss.xml',
+      type:'rss',
+      lang:'en',
+      desc:true
+    }
   ]
 };
 
@@ -466,26 +503,23 @@ async function loadBundledData(){
 }
 
 function applyItems(cat, items, limit){
-  if(cat==='property'){
-    const el=document.getElementById('ld-property');
-    if(el) el.outerHTML=`<div>${renderItemsList(items, limit||5)}</div>`;
-    window.__propertyAll=items;
-  } else {
-    const el=document.getElementById('ld-green');
-    if(el) el.outerHTML=`<div>${renderItemsList(items, limit||5)}</div>`;
-    window.__greenAll=items;
-  }
+  const idMap={property:'ld-property', green:'ld-green', news:'ld-news'};
+  const varMap={property:'__propertyAll', green:'__greenAll', news:'__newsAll'};
+  const el=document.getElementById(idMap[cat]);
+  if(el) el.outerHTML=`<div>${renderItemsList(items, limit||5)}</div>`;
+  window[varMap[cat]]=items;
 }
 
-async function loadProperty(limit){
+async function loadCategory(cat, limit){
+  const idMap={property:'ld-property', green:'ld-green', news:'ld-news'};
   // 1. 先用本地打包数据立即渲染
   const bundled=await loadBundledData();
-  if(bundled && bundled.data && bundled.data.property){
-    applyItems('property', bundled.data.property, limit);
+  if(bundled && bundled.data && bundled.data[cat]){
+    applyItems(cat, bundled.data[cat], limit);
   }
   // 2. 异步尝试拉最新（成功则覆盖）
   const all=[];
-  for(const s of SOURCES.property){
+  for(const s of (SOURCES[cat]||[])){
     const items=await fetchRSS(s);
     all.push(...items);
   }
@@ -495,44 +529,25 @@ async function loadProperty(limit){
       const tb=new Date(b.pub).getTime()||0;
       return tb-ta;
     });
-    applyItems('property', all, limit);
-  } else if(!bundled){
-    // 没本地数据也没网络，显示空状态
-    const el=document.getElementById('ld-property');
+    applyItems(cat, all, limit);
+  } else if(!bundled || !bundled.data[cat]){
+    const el=document.getElementById(idMap[cat]);
     if(el) el.outerHTML=`<div class="empty">暂未取到内容<button class="retry-btn" onclick="loadAll()">重试</button></div>`;
   }
 }
-async function loadGreen(limit){
-  const bundled=await loadBundledData();
-  if(bundled && bundled.data && bundled.data.green){
-    applyItems('green', bundled.data.green, limit);
-  }
-  const all=[];
-  for(const s of SOURCES.green){
-    const items=await fetchRSS(s);
-    all.push(...items);
-  }
-  if(all.length){
-    all.sort((a,b)=> {
-      const ta=new Date(a.pub).getTime()||0;
-      const tb=new Date(b.pub).getTime()||0;
-      return tb-ta;
-    });
-    applyItems('green', all, limit);
-  } else if(!bundled){
-    const el=document.getElementById('ld-green');
-    if(el) el.outerHTML=`<div class="empty">暂未取到内容<button class="retry-btn" onclick="loadAll()">重试</button></div>`;
-  }
-}
+async function loadProperty(limit){ return loadCategory('property', limit); }
+async function loadGreen(limit){ return loadCategory('green', limit); }
+async function loadNews(limit){ return loadCategory('news', limit); }
 
 // ---------- 总加载 ----------
 async function loadAll(){
   document.getElementById('todayDate').textContent=fmtCNDate();
   renderEnglish();
   renderTED();
-  // 并行加载两个资讯模块
+  // 并行加载资讯模块
   loadProperty();
   loadGreen();
+  loadNews();
 }
 
 // ---------- 视图切换 ----------
@@ -540,6 +555,7 @@ const TAB_META={
   today:{title:'今日工作台', ic:'🏠', tag:'每日精选', view:'today'},
   property:{title:'物业资产 · 楼宇交易', ic:'🏢', tag:'商业地产资讯完整列表', view:'list', key:'propertyAll'},
   green:{title:'绿色金融 · 双碳动态', ic:'🌱', tag:'双碳与可持续资讯完整列表', view:'list', key:'greenAll'},
+  news:{title:'每日热点新闻', ic:'📰', tag:'国际 · 娱乐 · 社会热点', view:'list', key:'newsAll'},
   english:{title:'商务英语 · 每日一练', ic:'💬', tag:'全部练习场景', view:'list', key:'engAll'},
   ted:{title:'TED 演讲 · 演讲口才', ic:'🎤', tag:'精选短演讲合集', view:'list', key:'tedAll'}
 };
@@ -561,7 +577,7 @@ function switchTab(tab){
   document.getElementById('list-tag').textContent=meta.tag;
   const body=document.getElementById('list-body');
 
-  if(tab==='property'||tab==='green'){
+  if(tab==='property'||tab==='green'||tab==='news'){
     const items=window['__'+meta.key]||[];
     body.innerHTML = items.length? renderItemsList(items, 40) : `<div class="empty">数据加载中，请稍候或返回今日页刷新<button class="retry-btn" onclick="switchTab('today')">返回今日</button></div>`;
   } else if(tab==='english'){
